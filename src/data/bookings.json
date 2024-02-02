@@ -11,9 +11,9 @@
       "bookingStatus": "confirmed"
     },
     {
-      "id": "e2345678-90ab-cdef-0123-456789abcdef",
+      "id": "f0123456-78ab-cdef-1234-56789abcdef0",
       "userId": "b2345678-90cd-ef01-2345-6789abcdef01",
-      "propertyId": "g9012345-67ef-0123-4567-89abcdef0123",
+      "propertyId": "e2345678-90bc-def0-0123-456789abcdef",
       "checkinDate": "2023-04-12T16:00:00.000Z",
       "checkoutDate": "2023-04-19T11:00:00.000Z",
       "numberOfGuests": 3,
@@ -21,9 +21,9 @@
       "bookingStatus": "pending"
     },
     {
-      "id": "d3456789-01bc-def0-0123-456789abcdef",
+      "id": "f0123456-78ab-cdef-2345-6789abcdef01",
       "userId": "c3456789-01de-f012-3456-789abcdef012",
-      "propertyId": "h0123456-78f0-1234-5678-9abcdef01234",
+      "propertyId": "d3456789-01cd-def0-1234-56789abcdef0",
       "checkinDate": "2023-05-01T14:00:00.000Z",
       "checkoutDate": "2023-05-10T12:00:00.000Z",
       "numberOfGuests": 4,
@@ -31,9 +31,9 @@
       "bookingStatus": "confirmed"
     },
     {
-      "id": "c4567890-12cd-ef01-2345-6789abcdef01",
+      "id": "f0123456-78ab-cdef-3456-789abcdef012",
       "userId": "d4567890-12ef-0123-4567-89abcdef0123",
-      "propertyId": "h0123456-78f0-1234-5678-9abcdef01234",
+      "propertyId": "c4567890-12de-f012-3456-789abcdef012",
       "checkinDate": "2023-06-05T15:00:00.000Z",
       "checkoutDate": "2023-06-12T10:00:00.000Z",
       "numberOfGuests": 1,
@@ -41,9 +41,9 @@
       "bookingStatus": "canceled"
     },
     {
-      "id": "b5678901-23de-f012-3456-789abcdef012",
+      "id": "f0123456-78ab-cdef-4567-89abcdef0123",
       "userId": "e5678901-23f0-1234-5678-9abcdef01234",
-      "propertyId": "i1234567-89f0-1234-5678-9abcdef01234",
+      "propertyId": "b5678901-23ef-0123-4567-89abcdef0123",
       "checkinDate": "2023-07-20T13:00:00.000Z",
       "checkoutDate": "2023-07-25T09:00:00.000Z",
       "numberOfGuests": 2,

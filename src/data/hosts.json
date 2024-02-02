@@ -1,7 +1,7 @@
 {
   "hosts": [
     {
-      "id": "f1234567-89ab-cdef-0123-456789abcdef",
+      "id": "b5678901-23ef-0a3b-45cd-89abcdef0123",
       "username": "johnDoe",
       "password": "johnDoe123",
       "name": "John Doe",
@@ -11,7 +11,7 @@
       "aboutMe": "I'm a passionate traveler who loves to share my home with fellow explorers. Welcome!"
     },
     {
-      "id": "e2345678-90bc-def0-0123-456789abcdef",
+      "id": "b5678901-23ef-1e2f-4a5b-89abcdef0123",
       "username": "lindaSmith",
       "password": "lindaS123",
       "name": "Linda Smith",
@@ -21,7 +21,7 @@
       "aboutMe": "A professional chef and a part-time host. I love curating unique experiences for my guests."
     },
     {
-      "id": "d3456789-01cd-def0-1234-56789abcdef0",
+      "id": "b5678901-2g4h-2c4d-6e8f-89abcdef0123",
       "username": "mikeBrown",
       "password": "mikeB2023",
       "name": "Mike Brown",
@@ -31,7 +31,7 @@
       "aboutMe": "Nature enthusiast, hiker, and a lover of arts. My home reflects my passions. Stay and enjoy!"
     },
     {
-      "id": "c4567890-12de-f012-3456-789abcdef012",
+      "id": "b5678901-23ef-3g5h-7i9j-89abcdef0123",
       "username": "sarahLee",
       "password": "sarahL456",
       "name": "Sarah Lee",
@@ -41,7 +41,7 @@
       "aboutMe": "Travel blogger turned host. My home is filled with artifacts from around the world. Feel the global vibe!"
     },
     {
-      "id": "b5678901-23ef-0123-4567-89abcdef0123",
+      "id": "b5678901-23ef-4k6l-8m0n-89abcdef0123",
       "username": "paulGreen",
       "password": "greenP789",
       "name": "Paul Green",

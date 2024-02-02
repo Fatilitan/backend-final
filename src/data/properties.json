@@ -7,58 +7,78 @@
       "location": "Rocky Mountains, Colorado",
       "pricePerNight": 120.5,
       "bedroomCount": 3,
-      "bathRoomCount": 2,
+      "bathroomCount": 2,
       "maxGuestCount": 5,
-      "hostId": "f1234567-89ab-cdef-0123-456789abcdef",
-      "rating": 5
+      "hostId": "b5678901-23ef-0a3b-45cd-89abcdef0123",
+      "rating": 5,
+      "amenityIds": [
+        "l4567890-12gh-ijkl-1234-56789abcdef0",
+        "m5678901-23ij-klmn-2345-6789abcdef01"
+      ]
     },
     {
-      "id": "h0123456-78f0-1234-5678-9abcdef01234",
+      "id": "e2345678-90bc-def0-0123-456789abcdef",
       "title": "Modern City Apartment",
       "description": "Stay in our sleek and modern apartment right in the heart of the city.",
       "location": "New York, NY",
       "pricePerNight": 150.75,
       "bedroomCount": 2,
-      "bathRoomCount": 2,
+      "bathroomCount": 2,
       "maxGuestCount": 4,
-      "hostId": "e2345678-90bc-def0-0123-456789abcdef",
-      "rating": 4
+      "hostId": "b5678901-23ef-1e2f-4a5b-89abcdef0123",
+      "rating": 4,
+      "amenityIds": [
+        "l4567890-12gh-ijkl-1234-56789abcdef0",
+        "m5678901-23ij-klmn-2345-6789abcdef01"
+      ]
     },
     {
-      "id": "i1234567-89f0-1234-5678-9abcdef01234",
+      "id": "d3456789-01cd-def0-1234-56789abcdef0",
       "title": "Lakeside Cottage",
       "description": "Unwind by the lake in our rustic cottage, perfect for weekend getaways.",
       "location": "Lake Tahoe, California",
       "pricePerNight": 95.0,
       "bedroomCount": 1,
-      "bathRoomCount": 1,
+      "bathroomCount": 1,
       "maxGuestCount": 3,
-      "hostId": "d3456789-01cd-def0-1234-56789abcdef0",
-      "rating": 5
+      "hostId": "b5678901-2g4h-2c4d-6e8f-89abcdef0123",
+      "rating": 5,
+      "amenityIds": [
+        "l4567890-12gh-ijkl-1234-56789abcdef0",
+        "m5678901-23ij-klmn-2345-6789abcdef01"
+      ]
     },
     {
-      "id": "j2345678-90f1-2345-6789-abcdef012345",
+      "id": "c4567890-12de-f012-3456-789abcdef012",
       "title": "Beachfront Villa",
       "description": "Experience paradise in our luxurious villa right on the beach.",
       "location": "Malibu, California",
       "pricePerNight": 310.25,
       "bedroomCount": 4,
-      "bathRoomCount": 3,
+      "bathroomCount": 3,
       "maxGuestCount": 8,
-      "hostId": "c4567890-12de-f012-3456-789abcdef012",
-      "rating": 5
+      "hostId": "b5678901-23ef-3g5h-7i9j-89abcdef0123",
+      "rating": 5,
+      "amenityIds": [
+        "l4567890-12gh-ijkl-1234-56789abcdef0",
+        "m5678901-23ij-klmn-2345-6789abcdef01"
+      ]
     },
     {
-      "id": "k3456789-01f2-3456-789a-bcdef0123456",
+      "id": "b5678901-23ef-0123-4567-89abcdef0123",
       "title": "Country Farmhouse",
       "description": "Step back in time and enjoy the simple pleasures of our traditional farmhouse.",
       "location": "Nashville, Tennessee",
       "pricePerNight": 85.0,
       "bedroomCount": 3,
-      "bathRoomCount": 2,
+      "bathroomCount": 2,
       "maxGuestCount": 6,
-      "hostId": "b5678901-23ef-0123-4567-89abcdef0123",
-      "rating": 4
+      "hostId": "b5678901-23ef-4k6l-8m0n-89abcdef0123",
+      "rating": 4,
+      "amenityIds": [
+        "l4567890-12gh-ijkl-1234-56789abcdef0",
+        "m5678901-23ij-klmn-2345-6789abcdef01"
+      ]
     }
   ]
 }
