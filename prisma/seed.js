@@ -42,6 +42,7 @@ async function main() {
       where: { id: property.id },
       update: {},
       create: {
+        id: property.id,
         title: property.title,
         description: property.description,
         location: property.location,
@@ -63,35 +64,14 @@ async function main() {
     await prisma.review.upsert({
       where: { id: review.id },
       update: {},
-      create: {
-        rating: review.rating,
-        comment: review.comment,
-        Property: {
-          connect: { id: review.propertyId },
-        },
-        User: {
-          connect: { id: review.userId },
-        },
-      },
+      create: review,
     });
   }
   for (const booking of bookings) {
     await prisma.booking.upsert({
       where: { id: booking.id },
       update: {},
-      create: {
-        checkinDate: booking.checkinDate,
-        checkoutDate: booking.checkoutDate,
-        numberOfGuests: booking.numberOfGuests,
-        totalPrice: booking.totalPrice,
-        bookingStatus: booking.bookingStatus,
-        User: {
-          connect: { id: booking.userId },
-        },
-        Property: {
-          connect: { id: booking.propertyId },
-        },
-      },
+      create: booking,
     });
   }
 }

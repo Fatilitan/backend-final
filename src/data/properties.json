@@ -49,7 +49,7 @@
       ]
     },
     {
-      "id": "c4567890-12de-f012-3456-789abcdef012",
+      "id": "i1234567-89f0-1234-5678-9abcdef01234",
       "title": "Beachfront Villa",
       "description": "Experience paradise in our luxurious villa right on the beach.",
       "location": "Malibu, California",
@@ -73,7 +73,7 @@
       "bedroomCount": 3,
       "bathroomCount": 2,
       "maxGuestCount": 6,
-      "hostId": "b5678901-23ef-4k6l-8m0n-89abcdef0123",
+      "hostId": "f1234567-89ab-cdef-0123-456789abcdef",
       "rating": 4,
       "amenityIds": [
         "l4567890-12gh-ijkl-1234-56789abcdef0",

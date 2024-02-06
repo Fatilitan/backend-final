@@ -662,7 +662,7 @@
                   "variable": [
                     {
                       "key": "hostId",
-                      "value": "e2345678-90bc-def0-0123-456789abcdef",
+                      "value": "b5678901-23ef-0a3b-45cd-89abcdef0123",
                       "description": "(Required) "
                     }
                   ]
@@ -966,7 +966,7 @@
                   "variable": [
                     {
                       "key": "hostId",
-                      "value": "e2345678-90bc-def0-0123-456789abcdef",
+                      "value": "b5678901-23ef-0a3b-45cd-89abcdef0123",
                       "description": "(Required) "
                     }
                   ]
@@ -1307,7 +1307,7 @@
                     }
                   ],
                   "cookie": [],
-                  "body": "{\n  \"id\": \"g9012345-67ef-0123-4567-89abcdef0123\",\n  \"title\": \"Cozy Mountain Retreat\",\n  \"description\": \"Experience tranquility in our cozy cabin situated on a serene mountain peak.\",\n  \"location\": \"Rocky Mountains, Colorado\",\n  \"pricePerNight\": 120.5,\n  \"bedroomCount\": 3,\n  \"bathRoomCount\": 2,\n  \"maxGuestCount\": 5,\n  \"hostId\": \"f1234567-89ab-cdef-0123-456789abcdef\",\n  \"rating\": 5\n}"
+                  "body": "{\n  \"id\": \"g9012345-67ef-0123-4567-89abcdef0123\",\n  \"title\": \"Cozy Mountain Retreat\",\n  \"description\": \"Experience tranquility in our cozy cabin situated on a serene mountain peak.\",\n  \"location\": \"Rocky Mountains, Colorado\",\n  \"pricePerNight\": 120.5,\n  \"bedroomCount\": 3,\n  \"bathroomCount\": 2,\n  \"maxGuestCount\": 5,\n  \"hostId\": \"f1234567-89ab-cdef-0123-456789abcdef\",\n  \"rating\": 5\n}"
                 },
                 {
                   "id": "5e5f2dec-6a0b-421e-9607-a4d6e246771b",
@@ -1373,7 +1373,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"title\": \"Updated Cozy Mountain Retreat\",\n  \"description\": \"Updated description for the cozy mountain retreat.\",\n  \"location\": \"Updated Location\",\n  \"pricePerNight\": 150.5,\n  \"bedroomCount\": 4,\n  \"bathRoomCount\": 3,\n  \"maxGuestCount\": 6,\n  \"rating\": 4.5\n}",
+                  "raw": "{\n  \"title\": \"Updated Cozy Mountain Retreat\",\n  \"description\": \"Updated description for the cozy mountain retreat.\",\n  \"location\": \"Updated Location\",\n  \"pricePerNight\": 150.5,\n  \"bedroomCount\": 4,\n  \"bathroomCount\": 3,\n  \"maxGuestCount\": 6,\n  \"rating\": 4.5\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -1408,7 +1408,7 @@
                     ],
                     "body": {
                       "mode": "raw",
-                      "raw": "{\n  \"title\": \"Updated Cozy Mountain Retreat\",\n  \"description\": \"Updated description for the cozy mountain retreat.\",\n  \"location\": \"Updated Location\",\n  \"pricePerNight\": 150.5,\n  \"bedroomCount\": 4,\n  \"bathRoomCount\": 3,\n  \"maxGuestCount\": 6,\n  \"rating\": 4.5\n}",
+                      "raw": "{\n  \"title\": \"Updated Cozy Mountain Retreat\",\n  \"description\": \"Updated description for the cozy mountain retreat.\",\n  \"location\": \"Updated Location\",\n  \"pricePerNight\": 150.5,\n  \"bedroomCount\": 4,\n  \"bathroomCount\": 3,\n  \"maxGuestCount\": 6,\n  \"rating\": 4.5\n}",
                       "options": {
                         "raw": {
                           "language": "json"
@@ -1454,7 +1454,7 @@
                     ],
                     "body": {
                       "mode": "raw",
-                      "raw": "{\n  \"title\": \"Updated Cozy Mountain Retreat\",\n  \"description\": \"Updated description for the cozy mountain retreat.\",\n  \"location\": \"Updated Location\",\n  \"pricePerNight\": 150.5,\n  \"bedroomCount\": 4,\n  \"bathRoomCount\": 3,\n  \"maxGuestCount\": 6,\n  \"rating\": 4.5\n}",
+                      "raw": "{\n  \"title\": \"Updated Cozy Mountain Retreat\",\n  \"description\": \"Updated description for the cozy mountain retreat.\",\n  \"location\": \"Updated Location\",\n  \"pricePerNight\": 150.5,\n  \"bedroomCount\": 4,\n  \"bathroomCount\": 3,\n  \"maxGuestCount\": 6,\n  \"rating\": 4.5\n}",
                       "options": {
                         "raw": {
                           "language": "json"
@@ -1500,7 +1500,7 @@
                     ],
                     "body": {
                       "mode": "raw",
-                      "raw": "{\n  \"title\": \"Updated Cozy Mountain Retreat\",\n  \"description\": \"Updated description for the cozy mountain retreat.\",\n  \"location\": \"Updated Location\",\n  \"pricePerNight\": 150.5,\n  \"bedroomCount\": 4,\n  \"bathRoomCount\": 3,\n  \"maxGuestCount\": 6,\n  \"rating\": 4.5\n}",
+                      "raw": "{\n  \"title\": \"Updated Cozy Mountain Retreat\",\n  \"description\": \"Updated description for the cozy mountain retreat.\",\n  \"location\": \"Updated Location\",\n  \"pricePerNight\": 150.5,\n  \"bedroomCount\": 4,\n  \"bathroomCount\": 3,\n  \"maxGuestCount\": 6,\n  \"rating\": 4.5\n}",
                       "options": {
                         "raw": {
                           "language": "json"
@@ -1740,7 +1740,7 @@
                 }
               ],
               "cookie": [],
-              "body": "[\n  {\n    \"id\": \"g9012345-67ef-0123-4567-89abcdef0123\",\n    \"title\": \"Cozy Mountain Retreat\",\n    \"description\": \"Experience tranquility in our cozy cabin situated on a serene mountain peak.\",\n    \"location\": \"Rocky Mountains, Colorado\",\n    \"pricePerNight\": 120.5,\n    \"bedroomCount\": 3,\n    \"bathRoomCount\": 2,\n    \"maxGuestCount\": 5,\n    \"hostId\": \"f1234567-89ab-cdef-0123-456789abcdef\",\n    \"rating\": 5\n  },\n  {\n    \"id\": \"g9012345-67ef-0123-4567-89abcdef0123\",\n    \"title\": \"Cozy Mountain Retreat\",\n    \"description\": \"Experience tranquility in our cozy cabin situated on a serene mountain peak.\",\n    \"location\": \"Rocky Mountains, Colorado\",\n    \"pricePerNight\": 120.5,\n    \"bedroomCount\": 3,\n    \"bathRoomCount\": 2,\n    \"maxGuestCount\": 5,\n    \"hostId\": \"f1234567-89ab-cdef-0123-456789abcdef\",\n    \"rating\": 5\n  }\n]"
+              "body": "[\n  {\n    \"id\": \"g9012345-67ef-0123-4567-89abcdef0123\",\n    \"title\": \"Cozy Mountain Retreat\",\n    \"description\": \"Experience tranquility in our cozy cabin situated on a serene mountain peak.\",\n    \"location\": \"Rocky Mountains, Colorado\",\n    \"pricePerNight\": 120.5,\n    \"bedroomCount\": 3,\n    \"bathroomCount\": 2,\n    \"maxGuestCount\": 5,\n    \"hostId\": \"f1234567-89ab-cdef-0123-456789abcdef\",\n    \"rating\": 5\n  },\n  {\n    \"id\": \"g9012345-67ef-0123-4567-89abcdef0123\",\n    \"title\": \"Cozy Mountain Retreat\",\n    \"description\": \"Experience tranquility in our cozy cabin situated on a serene mountain peak.\",\n    \"location\": \"Rocky Mountains, Colorado\",\n    \"pricePerNight\": 120.5,\n    \"bedroomCount\": 3,\n    \"bathroomCount\": 2,\n    \"maxGuestCount\": 5,\n    \"hostId\": \"f1234567-89ab-cdef-0123-456789abcdef\",\n    \"rating\": 5\n  }\n]"
             }
           ]
         },
@@ -1775,7 +1775,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"title\": \"Cozy Mountain Retreat\",\n  \"description\": \"Experience tranquility in our cozy cabin situated on a serene mountain peak.\",\n  \"location\": \"Rocky Mountains, Colorado\",\n  \"pricePerNight\": 120.5,\n  \"bedroomCount\": 3,\n  \"bathRoomCount\": 2,\n  \"maxGuestCount\": 5,\n  \"hostId\": \"f1234567-89ab-cdef-0123-456789abcdef\",\n  \"rating\": 5\n}",
+              "raw": "{\n  \"title\": \"Cozy Mountain Retreat\",\n  \"description\": \"Experience tranquility in our cozy cabin situated on a serene mountain peak.\",\n  \"location\": \"Rocky Mountains, Colorado\",\n  \"pricePerNight\": 120.5,\n  \"bedroomCount\": 3,\n  \"bathroomCount\": 2,\n  \"maxGuestCount\": 5,\n  \"hostId\": \"f1234567-89ab-cdef-0123-456789abcdef\",\n  \"rating\": 5\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1803,7 +1803,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"title\": \"Cozy Mountain Retreat\",\n  \"description\": \"Experience tranquility in our cozy cabin situated on a serene mountain peak.\",\n  \"location\": \"Rocky Mountains, Colorado\",\n  \"pricePerNight\": 120.5,\n  \"bedroomCount\": 3,\n  \"bathRoomCount\": 2,\n  \"maxGuestCount\": 5,\n  \"hostId\": \"f1234567-89ab-cdef-0123-456789abcdef\",\n  \"rating\": 5\n}",
+                  "raw": "{\n  \"title\": \"Cozy Mountain Retreat\",\n  \"description\": \"Experience tranquility in our cozy cabin situated on a serene mountain peak.\",\n  \"location\": \"Rocky Mountains, Colorado\",\n  \"pricePerNight\": 120.5,\n  \"bedroomCount\": 3,\n  \"bathroomCount\": 2,\n  \"maxGuestCount\": 5,\n  \"hostId\": \"f1234567-89ab-cdef-0123-456789abcdef\",\n  \"rating\": 5\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -2555,7 +2555,7 @@
                   "variable": [
                     {
                       "key": "bookingId",
-                      "value": "f0123456-78ab-cdef-0123-456789abcdef",
+                      "value": "f0123456-78ab-cdef-1234-56789abcdef0",
                       "description": "(Required) "
                     }
                   ]
@@ -2580,7 +2580,7 @@
                       "variable": [
                         {
                           "key": "bookingId",
-                          "value": "f0123456-78ab-cdef-0123-456789abcdef",
+                          "value": "f0123456-78ab-cdef-1234-56789abcdef0",
                           "description": "(Required) "
                         }
                       ]
@@ -2596,7 +2596,7 @@
                     }
                   ],
                   "cookie": [],
-                  "body": "{\n  \"id\": \"f0123456-78ab-cdef-0123-456789abcdef\",\n  \"userId\": \"a1234567-89ab-cdef-0123-456789abcdef\",\n  \"propertyId\": \"z9876543-21fe-dcba-1098-76543210dcba\",\n  \"checkinDate\": \"2023-03-10T18:00:00.000Z\",\n  \"checkoutDate\": \"2023-03-15T10:00:00.000Z\",\n  \"numberOfGuests\": 2,\n  \"totalPrice\": 150.25,\n  \"bookingStatus\": \"confirmed\"\n}"
+                  "body": "{\n  \"id\": \"f0123456-78ab-cdef-1234-56789abcdef0\",\n  \"userId\": \"a1234567-89ab-cdef-0123-456789abcdef\",\n  \"propertyId\": \"z9876543-21fe-dcba-1098-76543210dcba\",\n  \"checkinDate\": \"2023-03-10T18:00:00.000Z\",\n  \"checkoutDate\": \"2023-03-15T10:00:00.000Z\",\n  \"numberOfGuests\": 2,\n  \"totalPrice\": 150.25,\n  \"bookingStatus\": \"confirmed\"\n}"
                 },
                 {
                   "id": "c8a42270-b880-48b8-ba31-2b43685eba5b",
@@ -2611,7 +2611,7 @@
                       "variable": [
                         {
                           "key": "bookingId",
-                          "value": "f0123456-78ab-cdef-0123-456789abcdef",
+                          "value": "f0123456-78ab-cdef-1234-56789abcdef0",
                           "description": "(Required) "
                         }
                       ]
@@ -2676,7 +2676,7 @@
                   "variable": [
                     {
                       "key": "bookingId",
-                      "value": "f0123456-78ab-cdef-0123-456789abcdef",
+                      "value": "f0123456-78ab-cdef-1234-56789abcdef0",
                       "description": "(Required) "
                     }
                   ]
@@ -2711,7 +2711,7 @@
                       "variable": [
                         {
                           "key": "bookingId",
-                          "value": "f0123456-78ab-cdef-0123-456789abcdef",
+                          "value": "f0123456-78ab-cdef-1234-56789abcdef0",
                           "description": "(Required) "
                         }
                       ]
@@ -2757,7 +2757,7 @@
                       "variable": [
                         {
                           "key": "bookingId",
-                          "value": "f0123456-78ab-cdef-0123-456789abcdef",
+                          "value": "f0123456-78ab-cdef-1234-56789abcdef0",
                           "description": "(Required) "
                         }
                       ]
@@ -2803,7 +2803,7 @@
                       "variable": [
                         {
                           "key": "bookingId",
-                          "value": "f0123456-78ab-cdef-0123-456789abcdef",
+                          "value": "f0123456-78ab-cdef-1234-56789abcdef0",
                           "description": "(Required) "
                         }
                       ]
@@ -2859,7 +2859,7 @@
                   "variable": [
                     {
                       "key": "bookingId",
-                      "value": "f0123456-78ab-cdef-0123-456789abcdef",
+                      "value": "f0123456-78ab-cdef-1234-56789abcdef0",
                       "description": "(Required) "
                     }
                   ]
@@ -2885,7 +2885,7 @@
                       "variable": [
                         {
                           "key": "bookingId",
-                          "value": "f0123456-78ab-cdef-0123-456789abcdef",
+                          "value": "f0123456-78ab-cdef-1234-56789abcdef0",
                           "description": "(Required) "
                         }
                       ]
@@ -2922,7 +2922,7 @@
                       "variable": [
                         {
                           "key": "bookingId",
-                          "value": "f0123456-78ab-cdef-0123-456789abcdef",
+                          "value": "f0123456-78ab-cdef-1234-56789abcdef0",
                           "description": "(Required) "
                         }
                       ]
@@ -3036,7 +3036,7 @@
                 }
               ],
               "cookie": [],
-              "body": "[\n  {\n    \"id\": \"f0123456-78ab-cdef-0123-456789abcdef\",\n    \"userId\": \"a1234567-89ab-cdef-0123-456789abcdef\",\n    \"propertyId\": \"z9876543-21fe-dcba-1098-76543210dcba\",\n    \"checkinDate\": \"2023-03-10T18:00:00.000Z\",\n    \"checkoutDate\": \"2023-03-15T10:00:00.000Z\",\n    \"numberOfGuests\": 2,\n    \"totalPrice\": 150.25,\n    \"bookingStatus\": \"confirmed\"\n  },\n  {\n    \"id\": \"f0123456-78ab-cdef-0123-456789abcdef\",\n    \"userId\": \"a1234567-89ab-cdef-0123-456789abcdef\",\n    \"propertyId\": \"z9876543-21fe-dcba-1098-76543210dcba\",\n    \"checkinDate\": \"2023-03-10T18:00:00.000Z\",\n    \"checkoutDate\": \"2023-03-15T10:00:00.000Z\",\n    \"numberOfGuests\": 2,\n    \"totalPrice\": 150.25,\n    \"bookingStatus\": \"confirmed\"\n  }\n]"
+              "body": "[\n  {\n    \"id\": \"f0123456-78ab-cdef-1234-56789abcdef0\",\n    \"userId\": \"a1234567-89ab-cdef-0123-456789abcdef\",\n    \"propertyId\": \"z9876543-21fe-dcba-1098-76543210dcba\",\n    \"checkinDate\": \"2023-03-10T18:00:00.000Z\",\n    \"checkoutDate\": \"2023-03-15T10:00:00.000Z\",\n    \"numberOfGuests\": 2,\n    \"totalPrice\": 150.25,\n    \"bookingStatus\": \"confirmed\"\n  },\n  {\n    \"id\": \"f0123456-78ab-cdef-1234-56789abcdef0\",\n    \"userId\": \"a1234567-89ab-cdef-0123-456789abcdef\",\n    \"propertyId\": \"z9876543-21fe-dcba-1098-76543210dcba\",\n    \"checkinDate\": \"2023-03-10T18:00:00.000Z\",\n    \"checkoutDate\": \"2023-03-15T10:00:00.000Z\",\n    \"numberOfGuests\": 2,\n    \"totalPrice\": 150.25,\n    \"bookingStatus\": \"confirmed\"\n  }\n]"
             }
           ]
         },
@@ -3206,7 +3206,7 @@
                   "variable": [
                     {
                       "key": "reviewId",
-                      "value": "j0123456-78f0-1234-5678-9abcdef01234",
+                      "value": "i9012345-67ef-0123-4567-89abcdef0123",
                       "description": "(Required) "
                     }
                   ]
@@ -3327,7 +3327,7 @@
                   "variable": [
                     {
                       "key": "reviewId",
-                      "value": "j0123456-78f0-1234-5678-9abcdef01234",
+                      "value": "i9012345-67ef-0123-4567-89abcdef0123",
                       "description": "(Required) "
                     }
                   ]
@@ -3510,7 +3510,7 @@
                   "variable": [
                     {
                       "key": "reviewId",
-                      "value": "j0123456-78f0-1234-5678-9abcdef01234",
+                      "value": "i9012345-67ef-0123-4567-89abcdef0123",
                       "description": "(Required) "
                     }
                   ]
