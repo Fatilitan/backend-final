@@ -3,7 +3,7 @@ import NotFoundError from "../../errors/NotFoundError.js";
 
 const updateReviewById = async (id, userId, propertyId, rating, comment) => {
   const prisma = new PrismaClient();
-  const updatedReview = prisma.review.updateMany({
+  const updatedReview = await prisma.review.updateMany({
     where: {
       id,
     },
@@ -15,13 +15,7 @@ const updateReviewById = async (id, userId, propertyId, rating, comment) => {
     },
   });
 
-  if (!updatedReview) {
-    throw new NotFoundError("Reviews", id);
-  }
-
-  return {
-    message: `review with id ${id} was updated!`,
-  };
+  return updatedReview.count > 0 ? id : null;
 };
 
 export default updateReviewById;

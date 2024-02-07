@@ -1,5 +1,4 @@
 import { PrismaClient } from "@prisma/client";
-import NotFoundError from "../../errors/NotFoundError.js";
 
 const updateUserById = async (
   id,
@@ -11,7 +10,7 @@ const updateUserById = async (
   profilePicture
 ) => {
   const prisma = new PrismaClient();
-  const updatedUser = prisma.user.updateMany({
+  const updatedUser = await prisma.user.updateMany({
     where: {
       id,
     },
@@ -25,13 +24,7 @@ const updateUserById = async (
     },
   });
 
-  if (!updatedUser) {
-    throw new NotFoundError("Users", id);
-  }
-
-  return {
-    message: `User with id ${id} was updated!`,
-  };
+  return updatedUser.count > 0 ? id : null;
 };
 
 export default updateUserById;

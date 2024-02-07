@@ -1,4 +1,5 @@
 import { PrismaClient } from "@prisma/client";
+import NotFoundError from "../../errors/NotFoundError.js";
 
 const deleteProperty = async (id) => {
   const prisma = new PrismaClient();

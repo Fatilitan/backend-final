@@ -13,13 +13,7 @@ const updateAmenityById = async (id, name) => {
     },
   });
 
-  if (!updatedAmenity) {
-    throw new NotFoundError("Amenities", id);
-  }
-
-  return {
-    message: `Amenity with id ${id} was updated!`,
-  };
+  return updatedAmenity.count > 0 ? id : null;
 };
 
 export default updateAmenityById;

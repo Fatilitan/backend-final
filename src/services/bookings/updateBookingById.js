@@ -12,7 +12,7 @@ const updateBookingById = async (
   bookingStatus
 ) => {
   const prisma = new PrismaClient();
-  const updatedBooking = prisma.booking.updateMany({
+  const updatedBooking = await prisma.booking.updateMany({
     where: {
       id,
     },
@@ -27,13 +27,7 @@ const updateBookingById = async (
     },
   });
 
-  if (!updatedBooking) {
-    throw new NotFoundError("Bookings", id);
-  }
-
-  return {
-    message: `Booking with id ${id} was updated!`,
-  };
+  return updatedBooking.count > 0 ? id : null;
 };
 
 export default updateBookingById;
