@@ -10,7 +10,30 @@ import notFoundErrorHandler from "../middleware/NotFoundErrorHandler.js";
 const router = express.Router();
 
 router.get("/", async (req, res, next) => {
-  const properties = await getProperties();
+  const {
+    title,
+    description,
+    location,
+    pricePerNight,
+    bedroomCount,
+    bathroomCount,
+    maxGuestCount,
+    hostId,
+    rating,
+    amenityIds,
+  } = req.query;
+  const properties = await getProperties(
+    title,
+    description,
+    location,
+    pricePerNight,
+    bedroomCount,
+    bathroomCount,
+    maxGuestCount,
+    hostId,
+    rating,
+    amenityIds
+  );
   res.status(200).json(properties);
 });
 
